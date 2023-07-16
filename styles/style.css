@@ -15,6 +15,10 @@ body {
     font-size: 1.1rem;
     border: 0;
 }
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
 
 
 
@@ -73,6 +77,7 @@ nav {
 
 
 /* Responsive styles     */
+/* mobile or small devices  */
 @media screen and (max-width: 576px) {
     nav {
         flex-direction: column;
@@ -84,4 +89,38 @@ nav {
         margin: 10px;
         color:#424242;
     }
+    .banner-content {
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
+
+@media screen and (min-width: 576px) and (max-width: 778px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+    .menu li {
+        list-style: none;
+        margin: 10px;
+        color:#424242;
+    }
+}
+
+
+
+/* Tablet or medium devices  */
+ @media screen and (min-width: 778px) and (max-width: 900px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+    .menu li {
+        list-style: none;
+        margin: 10px;
+        color:#424242;
+    }
+} 
