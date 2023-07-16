@@ -72,6 +72,49 @@ nav {
 .banner-content h1 {
     font-size: 3rem;
 }
+/* Feature section style  */
+.feature-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3rem;
+    margin-top: 3rem;
+}
+.feature-img-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.feature-img{
+    width: 200px;
+    height: 200px;
+}
+.feature-img img{
+    width: 100%;
+}
+.feature-content h1{
+    font-size: 2.8rem;
+}
+.dark{
+    color: #FF900E;
+}
+.lite{
+    color: #979696;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -96,6 +139,9 @@ nav {
     }
 }
 
+
+
+/* Tablet or medium devices  */
 @media screen and (min-width: 576px) and (max-width: 778px) {
     nav {
         flex-direction: column;
